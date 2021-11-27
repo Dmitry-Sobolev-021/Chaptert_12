@@ -1,0 +1,175 @@
+body{
+    background-color: #b5a789;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: medium;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header.top{
+    background-color: #675c47;
+    margin: 0px;
+    height: 108px;
+}
+
+header.top img#headerSlogan{
+    float: right;
+}
+
+.table_container{
+    display: table;
+    background: #efe5d0 url(images/background.gif) top left;
+}
+
+.table_row{
+    display: table-row;
+}
+
+.drinks{
+    display: table-cell; 
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.drinks>h2{
+    font-size: 140%;
+}
+
+.drinks>h2, .drinks>h3{
+    color: rgba(53, 119, 22, 0.76);
+}
+
+.drinks>.foto, .drinks h2, .drinks h3{
+    text-align: center;
+}
+
+.drinks p{
+    text-align: justify;
+}
+
+
+main{
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+aside{
+    display: table-cell;
+    width: 20%;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top; 
+    text-align: justify;
+}
+
+aside>img{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+}
+
+ul {
+    background-color: #efe5d0;
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    }
+
+ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+    }
+
+ul li a:link, ul li a:visited {
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+    }
+
+ul li.selected {
+    background-color: #c8b99c;
+    }
+
+
+
+
+
+
+
+
+.allcontent {
+    background: #efe5d0 url(images/background.gif) bottom right;
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #675c47;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main {
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.sidebar {
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top    
+    }
+
+.footer {
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+    clear: right;
+}
+
+h1 {
+    font-size: 120%;
+    color: #954b4b;
+}
+
+.slogan { 
+    color: #954b4b;
+}
+
+.beanheading {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+.table_conteiner{
+    display: table;
+    border-spacing: 10px;
+}
+
+.table_row{
+    display: table-row; 
+}
+
+.coupon{
+    position: fixed;
+    top: 300px;
+    left: -90px;
+    border: none;
+}
